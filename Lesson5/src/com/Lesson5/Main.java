@@ -41,7 +41,7 @@ interface Visitor {
 
 class ConcreteVisitor implements Visitor {
     public void doDog() {
-        System.out.println("Собака - гафкает");
+        System.out.println("Собака - гавкает");
     }
 
     public void doCat() {
